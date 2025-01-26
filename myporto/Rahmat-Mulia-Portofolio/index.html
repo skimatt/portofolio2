@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahmat Mulia | Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i class="fas fa-code"></i> Rahmat Mulia</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about"
+                ><i class="fas fa-user"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills"
+                ><i class="fas fa-tools"></i> Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"
+                ><i class="fas fa-project-diagram"></i> Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials"
+                ><i class="fas fa-comment-dots"></i> Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"
+                ><i class="fas fa-envelope"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+<header class="text-center position-relative overflow-hidden">
+     <div class="container">
+       <h1 class="display-4 fw-bold mb-4 animate__animated animate__fadeInDown animate__delay-0.5s">
+         Hi, I'm Rahmat Mulia
+       </h1>
+       <p class="lead mb-5 animate__animated animate__fadeInUp animate__delay-1s">
+             A Passionate Web & Software Developer
+       </p>
+       <div class="d-flex justify-content-center gap-4">
+         <a
+           href="#projects"
+           class="btn btn-primary btn-lg animate__animated animate__fadeInLeft animate__delay-1.5s"
+           ><i class="fas fa-eye"></i> View My Work</a>
+         <a
+           href="#contact"
+           class="btn btn-outline-light btn-lg animate__animated animate__fadeInRight animate__delay-1.7s"
+           ><i class="fas fa-paper-plane"></i> Contact Me</a>
+         </a>
+       </div>
+     </div>
+     <!-- Background Gradient -->
+     <div class="hero-background"></div>
+   </header>
+   
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img
+              src="img/profile.jpg"
+              alt="Profile Picture"
+              class="rounded-circle img-fluid shadow animate__animated animate__fadeInLeft"
+              width="200"
+            />
+          </div>
+          <div class="col-md-8">
+            <p class="lead animate__animated animate__fadeInRight">
+              Hi, I'm Rahmat Mulia, a dedicated IT professional with expertise
+              in backend development, system optimization, and secure coding. My
+              passion lies in delivering efficient and innovative solutions.
+            </p>
+            <div class="mt-4">
+              <p>
+                <i class="fas fa-envelope text-primary"></i> Email:
+                <a href="mailto:rahmatzkk10@gmail.com">rahmatzkk10@gmail.com</a>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://github.com/skimatt" class="btn btn-outline-primary me-2">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://instagram.com/skimatt_" class="btn btn-outline-primary me-2">
+                  <i class="fab fa-instagram"></i> Instagram
+                </a>
+              </div>
+            </div>              
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="row g-4">
+          <!-- React.js -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-react skill-icon"></i>
+              <h4>React.js</h4>
+              <p>Advanced</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Laravel -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-laravel skill-icon"></i>
+              <h4>Laravel</h4>
+              <p>Expert</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 95%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- CodeIgniter -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fas fa-fire skill-icon"></i>
+              <h4>CodeIgniter</h4>
+              <p>Proficient</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- HTML & CSS -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-html5 skill-icon"></i>
+              <h4>HTML & CSS</h4>
+              <p>Advanced</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- JavaScript -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-js skill-icon"></i>
+              <h4>JavaScript</h4>
+              <p>Expert</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 92%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Tailwind CSS -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-css3-alt skill-icon"></i>
+              <h4>Tailwind CSS</h4>
+              <p>Proficient</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Node.js -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-node-js skill-icon"></i>
+              <h4>Node.js</h4>
+              <p>Advanced</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 88%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Express.js -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fas fa-server skill-icon"></i>
+              <h4>Express.js</h4>
+              <p>Proficient</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center mb-5 text-white">My Projects</h2>
+    <div class="row g-4">
+      
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="project-card card h-100 shadow-lg border-0 rounded-3 overflow-hidden">
+          <img src="img/project1.jpg" class="card-img-top" alt="Project 1" />
+          <div class="card-body p-4">
+            <h5 class="card-title d-flex align-items-center mb-3 text-white">
+              <i class="fas fa-shopping-cart text-primary me-2"></i> Sistem Penilaian kampus
+            </h5>
+            <p class="card-text text-white mb-4">
+              Developed a campus grading system using CodeIgniter, enabling efficient management of student grades and academic records.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="https://github.com/skimatt" class="btn btn-primary btn-sm px-4 py-2 rounded-pill">
+                <i class="fas fa-eye"></i> View Details
+              </a>
+              <div class="tech-stack">
+                <i class="fab fa-python" title="Python"></i>
+                <i class="fab fa-docker" title="Docker"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card card h-100 shadow-lg border-0 rounded-3 overflow-hidden">
+          <img src="img/project2.jpg" class="card-img-top" alt="Project 2" />
+          <div class="card-body p-4">
+            <h5 class="card-title d-flex align-items-center mb-3 text-white">
+              <i class="fas fa-lock text-primary me-2"></i> Sistem Pengelolaan Waterboom
+            </h5>
+            <p class="card-text text-white mb-4">
+            Developed a comprehensive management system for a water park using Laravel and Vue.js.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="https://github.com/skimatt" class="btn btn-primary btn-sm px-4 py-2 rounded-pill">
+                <i class="fas fa-eye"></i> View Details
+              </a>
+              <div class="tech-stack">
+                <i class="fab fa-cpp" title="C++"></i>
+                <i class="fas fa-shield-alt" title="OpenSSL"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="project-card card h-100 shadow-lg border-0 rounded-3 overflow-hidden">
+          <img src="img/project3.jpg" class="card-img-top" alt="Project 3" />
+          <div class="card-body p-4">
+            <h5 class="card-title d-flex align-items-center mb-3 text-white">
+              <i class="fas fa-chart-line text-primary me-2"></i> Monitoring Dashboard
+            </h5>
+            <p class="card-text text-white mb-4">
+            Built a real-time monitoring dashboard using Laravel and Vue.js to track system performance and metrics.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="https://github.com/skimatt" class="btn btn-primary btn-sm px-4 py-2 rounded-pill">
+                <i class="fas fa-eye"></i> View Details
+              </a>
+              <div class="tech-stack">
+                <i class="fab fa-js" title="JavaScript"></i>
+                <i class="fab fa-node" title="Node.js"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+   
+
+<!-- Bagian Testimoni -->
+<section id="testimonials" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center mb-5 text-white">Apa Kata Klien</h2>
+    <div class="row justify-content-center">
+      
+      <!-- Testimoni 1 -->
+      <div class="col-md-6">
+        <div class="testimonial-card card shadow-lg border-0 rounded-3 p-4 mb-4 animate__animated animate__fadeInLeft">
+          <i class="fas fa-quote-left fa-3x text-primary mb-3"></i>
+          <p class="lead text-white mb-4"> 
+            "Seorang profesional sejati yang bekerja melampaui harapan kami."
+          </p>
+          <div class="d-flex align-items-center">
+            <img src="img/jackson.jpg" alt="Klien Jackson" class="rounded-circle me-3 img-small" />
+            <div>
+              <h5 class="mb-0 text-white">Jackson</h5>
+              <small class="text-white">CEO, Perusahaan Bireuen</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimoni 2 -->
+      <div class="col-md-6">
+        <div class="testimonial-card card shadow-lg border-0 rounded-3 p-4 mb-4 animate__animated animate__fadeInRight">
+          <i class="fas fa-quote-left fa-3x text-primary mb-3"></i>
+          <p class="lead text-white mb-4">
+            "Kemampuan menyelesaikan masalah yang luar biasa dan perhatian terhadap detail."
+          </p>
+          <div class="d-flex align-items-center">
+            <img src="img/muhammad-reza.jpg" alt="Klien Muhammad Reza" class="rounded-circle me-3 img-small" />
+            <div>
+              <h5 class="mb-0 text-white">Nurul Iman</h5>
+              <small class="text-white">Mahasiswa, Perusahaan Teknologi</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+   
+   
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-dark text-white">
+     <div class="container">
+       <h2 class="section-title text-center mb-4">Get in Touch</h2>
+       <div class="row justify-content-center">
+         <div class="col-md-8">
+           <form>
+             <div class="row">
+               <div class="col-md-6 mb-3">
+                 <label for="name" class="form-label">Your Name</label>
+                 <input
+                   type="text"
+                   id="name"
+                   class="form-control bg-dark text-white border-0 shadow-sm"
+                   placeholder="Your Name"
+                   required
+                 />
+               </div>
+               <div class="col-md-6 mb-3">
+                 <label for="email" class="form-label">Your Email</label>
+                 <input
+                   type="email"
+                   id="email"
+                   class="form-control bg-dark text-white border-0 shadow-sm"
+                   placeholder="Your Email"
+                   required
+                 />
+               </div>
+             </div>
+             <div class="mb-3">
+               <label for="message" class="form-label">Your Message</label>
+               <textarea
+                 id="message"
+                 class="form-control bg-dark text-white border-0 shadow-sm"
+                 rows="4"
+                 placeholder="Your Message"
+                 required
+               ></textarea>
+             </div>
+             <button type="submit" class="btn btn-primary w-100">Send Message</button>
+           </form>
+         </div>
+       </div>
+     </div>
+   </section>
+   
+   
+   <footer>
+    <div class="footer-content text-center py-4">
+      <p>© 2025 Rahmat Mulia. All Rights Reserved.</p>
+      <div class="social-links">
+        <!-- Tautan ke Facebook -->
+        <a href="https://facebook.com/ski" target="_blank" class="social-link">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <!-- Tautan ke GitHub -->
+        <a href="https://github.com/skimatt" target="_blank" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+        <!-- Tautan ke Instagram -->
+        <a href="https://instagram.com/skimatt_" target="_blank" class="social-link">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+   
+   <!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Font Awesome for social icons -->
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
