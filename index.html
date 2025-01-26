@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahmat Mulia | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i class="fas fa-code"></i> Skimatt </a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about"
+                ><i class="fas fa-user-circle"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills"
+                ><i class="fas fa-code"></i> Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"
+                ><i class="fas fa-project-diagram"></i> Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials"
+                ><i class="fas fa-comment-dots"></i> Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"
+                ><i class="fas fa-paper-plane"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Hi, I'm <span class="name-highlight">Rahmat Mulia</span>
+            </h1>
+            <p class="hero-subtitle">
+              Full-Stack Developer | Crafting Scalable Web Solutions
+            </p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-eye gradient-icon"></i> View My Work
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fas fa-paper-plane gradient-icon"></i> Contact Me
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="scroll-indicator">
+        <div class="scroll-arrow-container">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="60" viewBox="0 0 40 60">
+            <defs>
+              <linearGradient id="scrollGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#5fb7da"/>
+                <stop offset="100%" style="stop-color:#212248"/>
+              </linearGradient>
+            </defs>
+            <path 
+              d="M20 0 L20 40 L10 30 M20 40 L30 30" 
+              fill="none" 
+              stroke="url(#scrollGradient)" 
+              stroke-width="3" 
+              stroke-linecap="round" 
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span class="scroll-text">Let's scroll</span>
+        </div>
+      </div>
+    
+      <div class="hero-background"></div>
+    </header>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">About Me</h2>
+    <div class="row align-items-center">
+      <!-- Profile Picture -->
+      <div class="col-md-4 text-center">
+        <img
+          src="img/profile.jpg"
+          alt="Profile Picture"
+          class="rounded-circle img-fluid shadow mb-4 animate__animated animate__fadeInLeft"
+          width="200"
+        />
+      </div>
+      <!-- Bio and Contact Info -->
+      <div class="col-md-8">
+        <p class="lead mb-4 animate__animated animate__fadeInRight">
+          Hi, I'm <span class="text-primary fw-bold">Rahmat Mulia</span>, a Full-Stack Developer with expertise in both frontend and backend technologies. I specialize in building seamless, scalable, and user-friendly web applications.
+        </p>
+        <!-- Contact Details -->
+        <div class="contact-info mb-4 animate__animated animate__fadeInUp">
+          <p class="mb-3">
+            <i class="fas fa-envelope text-primary me-2"></i>
+            <a href="mailto:rahmatzkk10@gmail.com" class="text-decoration-none text-white">
+              rahmatzkk10@gmail.com
+            </a>
+          </p>
+          <p class="mb-3">
+            <i class="fas fa-map-marker-alt text-primary me-2"></i>
+           Indonesia
+          </p>
+        </div>
+        <!-- Social Links -->
+        <div class="social-links animate__animated animate__fadeInUp">
+          <a
+            href="https://github.com/skimatt"
+            class="btn btn-outline-primary btn-sm me-2"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a
+            href="https://www.instagram.com/skimatt_/"
+            class="btn btn-outline-primary btn-sm me-2"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="row g-4">
+          <!-- React.js -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-react skill-icon"></i>
+              <h4>React.js</h4>
+              <p>Advanced</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Laravel -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-laravel skill-icon"></i>
+              <h4>Laravel</h4>
+              <p>Expert</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 95%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- CodeIgniter -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fas fa-fire skill-icon"></i>
+              <h4>CodeIgniter</h4>
+              <p>Proficient</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- HTML & CSS -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-html5 skill-icon"></i>
+              <h4>HTML & CSS</h4>
+              <p>Advanced</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- JavaScript -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-js skill-icon"></i>
+              <h4>JavaScript</h4>
+              <p>Expert</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 92%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Tailwind CSS -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-css3-alt skill-icon"></i>
+              <h4>Tailwind CSS</h4>
+              <p>Proficient</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Node.js -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fab fa-node-js skill-icon"></i>
+              <h4>Node.js</h4>
+              <p>Advanced</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 88%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Express.js -->
+          <div class="col-md-3">
+            <div class="skill-box text-center">
+              <i class="fas fa-server skill-icon"></i>
+              <h4>Express.js</h4>
+              <p>Proficient</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="hero-background"></div>
+    </header>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title text-center mb-5 text-white">My Projects</h2>
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-md-4">
+            <div
+              class="project-card card h-100 shadow-lg border-0 rounded-3 overflow-hidden"
+            >
+              <img
+                src="img/project1.jpg"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body p-4">
+                <h5
+                  class="card-title d-flex align-items-center mb-3 text-white"
+                >
+                  <i class="fas fa-shopping-cart text-primary me-2"></i> Sistem
+                  Penilaian Kampus
+                </h5>
+                <p class="card-text text-white mb-4">
+                  Developed a campus grading system using CodeIgniter, enabling
+                  efficient management of student grades and academic records.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://github.com/skimatt"
+                    class="btn btn-primary btn-sm px-4 py-2 rounded-pill"
+                  >
+                    <i class="fas fa-eye"></i> View Details
+                  </a>
+                  <div class="tech-stack">
+                    <i class="fab fa-python" title="Python"></i>
+                    <i class="fab fa-docker" title="Docker"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-4">
+            <div
+              class="project-card card h-100 shadow-lg border-0 rounded-3 overflow-hidden"
+            >
+              <img
+                src="img/project2.jpg"
+                class="card-img-top"
+                alt="Project 2"
+              />
+              <div class="card-body p-4">
+                <h5
+                  class="card-title d-flex align-items-center mb-3 text-white"
+                >
+                  <i class="fas fa-lock text-primary me-2"></i> Sistem
+                  Pengelolaan Waterboom
+                </h5>
+                <p class="card-text text-white mb-4">
+                  Developed a comprehensive management system for a water park
+                  using Laravel and Vue.js.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://github.com/skimatt"
+                    class="btn btn-primary btn-sm px-4 py-2 rounded-pill"
+                  >
+                    <i class="fas fa-eye"></i> View Details
+                  </a>
+                  <div class="tech-stack">
+                    <i class="fab fa-cpp" title="C++"></i>
+                    <i class="fas fa-shield-alt" title="OpenSSL"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-md-4">
+            <div
+              class="project-card card h-100 shadow-lg border-0 rounded-3 overflow-hidden"
+            >
+              <img
+                src="img/project3.jpg"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body p-4">
+                <h5
+                  class="card-title d-flex align-items-center mb-3 text-white"
+                >
+                  <i class="fas fa-chart-line text-primary me-2"></i> Monitoring
+                  Dashboard
+                </h5>
+                <p class="card-text text-white mb-4">
+                  Built a real-time monitoring dashboard using Laravel and
+                  Vue.js to track system performance and metrics.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://github.com/skimatt"
+                    class="btn btn-primary btn-sm px-4 py-2 rounded-pill"
+                  >
+                    <i class="fas fa-eye"></i> View Details
+                  </a>
+                  <div class="tech-stack">
+                    <i class="fab fa-js" title="JavaScript"></i>
+                    <i class="fab fa-node" title="Node.js"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col-md-4">
+            <div
+              class="project-card card h-100 shadow-lg border-0 rounded-3 overflow-hidden"
+            >
+              <img
+                src="img/project4.jpg"
+                class="card-img-top"
+                alt="Project 4"
+              />
+              <div class="card-body p-4">
+                <h5
+                  class="card-title d-flex align-items-center mb-3 text-white"
+                >
+                  <i class="fas fa-book text-primary me-2"></i> E-Learning
+                  Platform
+                </h5>
+                <p class="card-text text-white mb-4">
+                  Created an e-learning platform with React.js and Node.js,
+                  featuring interactive courses, quizzes, and progress tracking.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://github.com/skimatt"
+                    class="btn btn-primary btn-sm px-4 py-2 rounded-pill"
+                  >
+                    <i class="fas fa-eye"></i> View Details
+                  </a>
+                  <div class="tech-stack">
+                    <i class="fab fa-react" title="React.js"></i>
+                    <i class="fab fa-node-js" title="Node.js"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="col-md-4">
+            <div
+              class="project-card card h-100 shadow-lg border-0 rounded-3 overflow-hidden"
+            >
+              <img
+                src="img/project5.jpg"
+                class="card-img-top"
+                alt="Project 5"
+              />
+              <div class="card-body p-4">
+                <h5
+                  class="card-title d-flex align-items-center mb-3 text-white"
+                >
+                  <i class="fas fa-store text-primary me-2"></i> E-Commerce
+                  Website
+                </h5>
+                <p class="card-text text-white mb-4">
+                  Developed a full-stack e-commerce website with Laravel and
+                  Vue.js, including payment integration and user authentication.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://github.com/skimatt"
+                    class="btn btn-primary btn-sm px-4 py-2 rounded-pill"
+                  >
+                    <i class="fas fa-eye"></i> View Details
+                  </a>
+                  <div class="tech-stack">
+                    <i class="fab fa-laravel" title="Laravel"></i>
+                    <i class="fab fa-vuejs" title="Vue.js"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="col-md-4">
+            <div
+              class="project-card card h-100 shadow-lg border-0 rounded-3 overflow-hidden"
+            >
+              <img
+                src="img/project6.jpg"
+                class="card-img-top"
+                alt="Project 6"
+              />
+              <div class="card-body p-4">
+                <h5
+                  class="card-title d-flex align-items-center mb-3 text-white"
+                >
+                  <i class="fas fa-mobile-alt text-primary me-2"></i> Mobile
+                  Task Manager
+                </h5>
+                <p class="card-text text-white mb-4">
+                  Built a cross-platform mobile task manager app using Flutter,
+                  featuring task scheduling, reminders, and synchronization.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://github.com/skimatt"
+                    class="btn btn-primary btn-sm px-4 py-2 rounded-pill"
+                  >
+                    <i class="fas fa-eye"></i> View Details
+                  </a>
+                  <div class="tech-stack">
+                    <i class="fab fa-flutter" title="Flutter"></i>
+                    <i class="fas fa-database" title="Firebase"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center mb-5 text-white">What Clients Say</h2>
+    <div class="row justify-content-center">
+      <!-- Testimonial 1 -->
+      <div class="col-md-6">
+        <div class="testimonial-card card shadow-lg border-0 rounded-3 p-4 mb-4 animate__animated animate__fadeInLeft">
+          <i class="fas fa-quote-left fa-3x text-primary mb-3"></i>
+          <p class="lead text-white mb-4">"A true professional who exceeded our expectations it's lit ❤️‍🔥"</p>
+          <div class="d-flex align-items-center">
+            <img src="img/jackson.jpg" alt="Client Jackson" class="rounded-circle me-3 img-small" />
+            <div>
+              <h5 class="mb-0 text-white">Jackson</h5>
+              <small class="text-white">CEO, Cactus jack</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="col-md-6">
+        <div class="testimonial-card card shadow-lg border-0 rounded-3 p-4 mb-4 animate__animated animate__fadeInRight">
+          <i class="fas fa-quote-left fa-3x text-primary mb-3"></i>
+          <p class="lead text-white mb-4">"Exceptional problem-solving skills and attention to detail."</p>
+          <div class="d-flex align-items-center">
+            <img src="img/muhammad-reza.jpg" alt="Client Muhammad Reza" class="rounded-circle me-3 img-small" />
+            <div>
+              <h5 class="mb-0 text-white">Nurul Iman</h5>
+              <small class="text-white">Student, Tech Company</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+      <div class="container">
+        <h2 class="section-title text-center mb-4">Get in Touch</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form action="https://formspree.io/f/xqaeeaog/" method="POST">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control bg-dark text-white border-0 shadow-sm"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control bg-dark text-white border-0 shadow-sm"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-control bg-dark text-white border-0 shadow-sm"
+                  rows="4"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content text-center py-4">
+        <div class="social-links">
+          <a
+            href="https://facebook.com/ski"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a
+            href="https://github.com/skimatt"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://instagram.com/skimatt_"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <p>© 2025 Rahmat Mulia. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome for social icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
